@@ -30,3 +30,6 @@ THEN the password is either displayed in an alert or written to the page
 ## Link to deployed site
 
 https://talha636.github.io/password_generator/
+
+## Screenshots
+<img width="868" alt="Screen Shot 2021-09-20 at 12 44 09 AM" src="https://user-images.githubusercontent.com/85548877/133958056-c4350656-983f-4743-ad24-439d10fc5479.png">
