@@ -50,7 +50,7 @@ function makePassword(length, lower, upper, number, symbols) {
     pass += symbols ? getSymbol() : "";
   }
   // Return the new password in the html element
-  return pass.slice(0, length)
+  return pass.slice(0, length);
 }
 
 // Write password to the #password input
