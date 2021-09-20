@@ -39,17 +39,17 @@ function generatePassword() {
     return makePassword(length, lower, upper, number, symbol);
   }
 }
-
+// Make function
 function makePassword(length, lower, upper, number, symbols) {
+  // Make new array with the characters for the options that are accepted
   let pass = "";
-
   for (let i = 0; i < length; i++) {
     pass += lower ? getLower() : "";
     pass += upper ? getUpper() : "";
     pass += number ? getNumber() : "";
     pass += symbols ? getSymbol() : "";
   }
-
+  // Return the new password in the html element
   return pass.slice(0, length)
 }
 
